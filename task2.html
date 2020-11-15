@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="task2.css">
+    <title>Login Facebook</title>
+</head>
+
+<body>
+    <div class="all">
+        <a>HOPE</a>
+    </div>
+    <div class="menutoggle" onclick="myFunction(this)">
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+    </div>
+    <ul class="ul" id="menu">
+        <a href>
+            <li class="active">Home</li>
+        </a>
+        <a href>
+            <li>About</li>
+        </a>
+        <a href>
+            <li>Service</li>
+        </a>
+        <a href>
+            <li>Contact</li>
+        </a>
+    </ul>
+
+    <div class="out">
+        <form method="GET" action="">
+            <h2>FACEBOOK</h2>
+            <h1>Login</h1>
+            <input type="text" placeholder="Email or Phone">
+            <input type="password" placeholder="Password"></br>
+            <input type="checkbox" name="keep">Keep Login</br>
+            <input type="button" value="Login" class="button"></br></br>
+            <a href="">Forget Password</a> . <a href="">Sign up</a>
+        </form>
+    </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+            document.getElementById('menu').classList.toggle('show');
+        }
+
+
+    </script>
+</body>
+
+</html>
